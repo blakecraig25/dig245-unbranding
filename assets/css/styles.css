@@ -1,2 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #dde9e6;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .text {
+    display: block;
+    width: 50%;
+    margin: 96px auto;
+    /* border: 1px solid black; */
+    /* turn borders off and on to see the borders of the display area */
+  }
+  
+  h1 {
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h2 {
+    color: dodgerblue;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  
+  h3 {
+    font-size: 1rem;
+    text-align: right;
+    margin-top: -2.5rem;
+  }
+  
+  h3 a:link,
+  a:visited {
+    color: dodgerblue;
+    text-decoration: none;
+  }
+  
+  h3 a:hover {
+    color: white;
+  }
 
-/* css */
+  .cssBackgroundImg {
+    background-image: url(../img/patagonia.png);
+    width: 1440px;
+    height: 1024px;
+    margin: 128px auto;
+  }
+
+  .cssBackgroundImg:hover {
+    background-image: url(../img/patagucci.png);
+    cursor: crosshair;
+
+  }
