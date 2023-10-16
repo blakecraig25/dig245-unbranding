@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e0e5f2; /* Whitish blue background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 24px; /* Adjust the font size as needed */
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container img {
+  width: 50%; /* Set both images to occupy 50% of the container width */
+  transition: 0.3s;
+}
+
+.image-container img.new-image {
+  opacity: 0;
+}
+
+.image-container:hover img.new-image {
+  opacity: 1;
+}
